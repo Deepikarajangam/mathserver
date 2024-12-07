@@ -30,6 +30,7 @@ Publish the website in the given URL.
 
 # PROGRAM :
 math.html:
+```
 <html>
 <head>
 <meta charset='utf-8'>
@@ -127,6 +128,7 @@ urlpatterns = [
     path('surfaceareaofcylinder/',views.surfacearea,name="surfaceareaofcylinder"),
     path('',views.surfacearea,name="surfaceareaofcylinderroot")
 ]
+```
 
 # SERVER SIDE PROCESSING:
 ![image](https://github.com/user-attachments/assets/3c65473c-1479-4c72-b665-5b2aa71035c3)
